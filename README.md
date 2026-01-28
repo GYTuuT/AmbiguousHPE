@@ -87,4 +87,5 @@ The file DrawHand_Blender.py contains several methods for generating hand scenes
 5. nflows: [bayesiains/nflows](https://github.com/bayesiains/nflows)
 
 #### 6. Ours other works
-1. "VPHO: Joint Visual-Physical Cue Learning and Aggregation for Hand-Object Pose Estimation", AAAI-26 : https://github.com/zhoujun-7/VPHO
+1. "Realistic Depth Image Synthesis for 3D Hand Pose Estimation", 2023, TMM : https://github.com/zhoujun-7/Realistic-Depth-Synthesis
+2. "VPHO: Joint Visual-Physical Cue Learning and Aggregation for Hand-Object Pose Estimation", AAAI-26 : https://github.com/zhoujun-7/VPHO
