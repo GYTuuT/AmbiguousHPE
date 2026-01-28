@@ -76,7 +76,7 @@ The ./data/MultiAnnoAugment directory contains the "multi-hypothesis annotation 
 
 #### 4. Visualization
 
-The file DrawHand_Blender.py contains several methods for generating hand scenes in Blender to achieve enhanced visualizations, as presented in our paper.
+The file DrawHand_Blender.py contains several methods for generating hand scenes in Blender to achieve enhanced visualizations, as presented in our paper. You can also use a convenient 3D visualization tool we developed for visualization: [Batch3D Visualizer](https://github.com/KaifengT/Batch3D)
 
 #### 5. References
 
