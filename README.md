@@ -89,3 +89,4 @@ The file DrawHand_Blender.py contains several methods for generating hand scenes
 #### 6. Ours other works
 1. "Realistic Depth Image Synthesis for 3D Hand Pose Estimation", 2023, TMM : https://github.com/zhoujun-7/Realistic-Depth-Synthesis
 2. "VPHO: Joint Visual-Physical Cue Learning and Aggregation for Hand-Object Pose Estimation", AAAI-26 : https://github.com/zhoujun-7/VPHO
+3. *occlusion-aware posterior inference for temporal hand pose estimation*, under review now, https://github.com/GYTuuT/TemAmbPrHand
