@@ -6,7 +6,7 @@ The experiments is performed on DexYCB, HO3Dv3, and ARCTIC datasets, as well as 
 
 >  Update-2026.08:
 > 1) The missing `JointVisibilityInfo` and `FingerAmbRotvec` can be generated using the methods and pipelines in `data/MultiAnnoAugment` (all datasets employ similar approaches to generate joint visibility and pose multi-solution annotations); `YCB_models_tiny` is obtained by reducing the vertex count using Blender software.
-> 2) Additionally, the data interface in [MultiViewAmbiHand](https://github.com/GYTuuT/MultiViewAmbiHand) can also be adapted for use, as it provides joint visibility and pose multi-solution annotations consistent with the current `AmbiHand`.
+> 2) Additionally, the data interface in [MultiViewAmbiHand](https://github.com/GYTuuT/MultiViewAmbiHand) can also be adapted for use, as it provides joint visibility and multi-pose annotations consistent with the current `AmbiHand`.
 
 #### 1. Running Evaluation
 
