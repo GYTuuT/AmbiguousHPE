@@ -4,6 +4,10 @@ This repository provides the code implementation for the paper "A Coarse-to-Fine
 
 The experiments is performed on DexYCB, HO3Dv3, and ARCTIC datasets, as well as the 3DOH50K human body dataset. This open-source implementation includes training and validation scripts, along with pretrained weights for hand pose estimation. For human body pose estimation, users can train the relevant components (./main) using the provided code.
 
+>  Update-2026.08:
+> 1) The missing `JointVisibilityInfo` and `FingerAmbRotvec` can be generated using the methods and pipelines in `data/MultiAnnoAugment` (all datasets employ similar approaches to generate joint visibility and pose multi-solution annotations); `YCB_models_tiny` is obtained by reducing the vertex count using Blender software.
+> 2) Additionally, the data interface in [MultiViewAmbiHand](https://github.com/GYTuuT/MultiViewAmbiHand) can also be adapted for use, as it provides joint visibility and pose multi-solution annotations consistent with the current `AmbiHand`.
+
 #### 1. Running Evaluation
 
 Before validation, please run the 'rearange.py' script for each dataset in the ./data directory to generate annotation files with standardized interfaces. For the HO3Dv3_MHE dataset, the necessary annotations are provided and can be downloaded to view the evaluation results of the multi-solution distribution on this dataset. [Custom HO3D_MHE Annotation](https://drive.google.com/file/d/1__y1_GCdvpspu8-KVSBoRIjtuD5yvqJe/view?usp=drive_link)
